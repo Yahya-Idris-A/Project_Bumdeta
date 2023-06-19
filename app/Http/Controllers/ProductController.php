@@ -24,6 +24,14 @@ class ProductController extends Controller
     {
     }
 
+    public function sort($id)
+    {
+        // return view('sorting_produk', [
+        //     'title' => "| Sorting Produk",
+        //     'products' => Product::
+        // ]);
+    }
+
     public function adminView()
     {
         return view('admin.dashboard_admin_product', [

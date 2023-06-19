@@ -52,6 +52,8 @@ Route::get('/detail_desa/{id}', [DesaController::class, 'details_desa']);
 
 Route::post('/sort-desa', [DesaController::class, 'sort']);
 
+Route::post('/sort-produk/{id}', [ProductController::class, 'sort']);
+
 Route::resource('admin-products', 'App\Http\Controllers\ProductController');
 Route::resource('admin-mitras', 'App\Http\Controllers\MitraController');
 Route::resource('admin-articles', 'App\Http\Controllers\ArticleController');

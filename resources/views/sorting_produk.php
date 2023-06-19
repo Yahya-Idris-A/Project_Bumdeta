@@ -15,7 +15,7 @@
                 @endphp
                 @foreach ($categories as $object)
                 <div class="col-6 col-md-3 col-lg-2" data-aos="fade-up" data-aos-delay="{{$i+=100}}">
-                    <a href="/sort-produk/{{$object->id}}" class="component-categories d-block">
+                    <a href=" #" class="component-categories d-block">
                         <div class="categories-image">
                             <img src="{{asset("storage/category_images/".$object->images)}}" alt="" class="w-100" />
                         </div>
